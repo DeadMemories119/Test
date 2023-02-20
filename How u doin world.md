@@ -51,11 +51,20 @@
 ## git checkout master
 переключиться на ветку с самым последним сохранением
 
-## git branch addNewName
-добавить новую ветку
+## git checkout newBranch
+переключиться на конкретную ветку
+
+## git merge newBranch
+слить две ветки в одну,т.е. в ветку, на которой мы находимся, влить данные ветки newBranch
 
 ## git branch
 посмотреть ветки и узнать на какой мы находимся
 
-## git branch addNewName
-переключиться на конкретную ветку
+## git brnach newNBranch
+добавить новую ветку
+
+## git branch -d newBranch
+удалить ветку
+
+## git log --graph
+Дерево коммитов
